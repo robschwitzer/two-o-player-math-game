@@ -1,0 +1,20 @@
+Classes
+
+    Main
+      entry point
+      paths to Game, Turn, Player, Question
+
+    Game
+      has
+        :turns
+        :decrements player lives
+        :winner/loser
+
+    Player
+      has
+        :id
+        :lives
+
+    Question
+      has
+        function to generate random math questions
